@@ -1,27 +1,41 @@
-# React + TypeScript + Vite
+# PizzaMizza Delivery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Добро пожаловать в репозиторий приложения для доставки пиццы! Этот проект представляет собой удобный сайт для заказа пиццы с функцией аутентификации и корзиной для покупок. Он разработан для упрощения процесса заказа ваших любимых пицц. Независимо от того, являетесь ли вы разработчиком, готовым внести свой вклад, или просто любителем пиццы 🍕, я рад видеть вас здесь.
 
-Currently, two official plugins are available:
+Я прошёл курс <a href="https://github.com/AlariCode">AlariCode</a> и создал не сложный сайт доставки пиццы с авторизацией и корзиной для заказа.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Особенности
 
-## Expanding the ESLint configuration
+- Аутентификация пользователя: безопасный вход и создание аккаунта.
+- Просмотр меню: изучайте наши аппетитные варианты пицц.
+- Корзина для покупок: легко добавляйте и управляйте заказами пицц.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Стек технологий
 
-- Configure the top-level `parserOptions` property like this:
+Проект был разработан с использованием следующего стека технологий:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### Фронтенд:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Фреймворк: [React](https://ru.reactjs.org/)
+- Управление состоянием: [Redux Toolkit](https://redux-toolkit.js.org/)
+- Стилизация: [CSS Modules](https://github.com/css-modules/css-modules)
+- Типизация: [TypeScript](https://www.typescriptlang.org/)
+- Сборка проекта: [Vite](https://vitejs.dev/)
+
+### Аутентификация и взаимодействие с сервером:
+
+- [JSON Web Tokens (JWT)](https://jwt.io/)
+- Библиотека для HTTP-запросов: [Axios](https://axios-http.com/)
+
+### Маршрутизация:
+
+- [React Router](https://reactrouter.com/)
+
+## Начало работы
+
+Чтобы начать, клонируйте этот репозиторий. 
+
+## Внесение вклада
+
+Я также приветствую вклад от сообщества! Если вы хотите внести свой вклад в разработку этого приложения для доставки пиццы, пожалуйста, дайте мне об этом знать.
+

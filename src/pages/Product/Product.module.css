@@ -1,0 +1,82 @@
+.image { 
+	width: 420px;
+	height: 300px;
+	margin-top: 45px;
+	border-radius: 25px; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.exit-icon:hover {
+	opacity: 0.55;
+}
+
+.exit-btn {
+	border: none;
+	background: var(--white-color);
+	cursor: pointer;
+	position: relative;
+	top: 15px;
+}
+
+.add-to-cart {
+	position: absolute;
+	top: 65px;
+	right: 650px;
+	background: var(--primary-color);
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;	
+	box-shadow: 0px 10px 8px 0px rgba(255, 83, 0, 0.2);
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.add-to-cart:hover {
+	background: var(--primary-hover-color);
+	
+}	
+
+.product-item {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-left: -150px;
+}
+
+.info {
+	margin-right: 130px;
+}
+
+.price {
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.currency {
+	color: var(--sub-color, #9796A1);
+	font-size: 15px;
+}
+
+.currency-text {
+	display: flex;
+}
+
+.rating {
+	justify-content: space-between;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.ingredients {
+	margin-top: 30px;
+}
+
+.ingredient-head {
+	font-size: 16px;
+}
